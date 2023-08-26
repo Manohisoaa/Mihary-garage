@@ -2,12 +2,14 @@
     width: 100vw;
     display: flex;
     justify-content: center;
+    position: relative;
+
 }
 
 #hero .container {
     width: var(--max-width);
     display: flex;
-
+    height: 600px;
 }
 
 #hero .description {
@@ -39,5 +41,11 @@
 #hero .image {
     height: 300px;
     width: 100%;
-    background-color: aliceblue;
 }
+
+#hero #card {
+    position: absolute;
+    right: 0;
+}
+
+#hero .blur {}
