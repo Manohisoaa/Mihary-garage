@@ -1,0 +1,43 @@
+#hero {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#hero .container {
+    width: var(--max-width);
+    display: flex;
+
+}
+
+#hero .description {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+}
+
+#hero .description h1,
+#hero .description h1 span {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    /* 90.23% */
+    letter-spacing: 2.175px;
+    text-transform: capitalize;
+}
+
+#hero .description h1 span {
+    background: var(--gradient-3, linear-gradient(45deg, #8c00ff 0%, #ff00e6 20.00%, #8c00ff 40.00%, #ff00e6 60.00%, #8c00ff 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#hero .image {
+    height: 300px;
+    width: 100%;
+    background-color: aliceblue;
+}

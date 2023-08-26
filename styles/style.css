@@ -1,0 +1,19 @@
+@import url(./nav.css);
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&family=Poppins:wght@200;400;600&display=swap');
+@import url(./hero.css);
+
+:root {
+    --blue1: #2f80ed;
+    --max-width: 1200px;
+    --background: #1a1a4e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--background);
+}
