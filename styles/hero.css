@@ -31,7 +31,8 @@
     text-transform: capitalize;
 }
 
-#hero .description h1 span {
+#hero .description h1 span,
+#hero .description p span {
     background: var(--gradient-3, linear-gradient(45deg, #8c00ff 0%, #ff00e6 20.00%, #8c00ff 40.00%, #ff00e6 60.00%, #8c00ff 100%));
     background-clip: text;
     -webkit-background-clip: text;
