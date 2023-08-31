@@ -39,6 +39,15 @@
     -webkit-text-fill-color: transparent;
 }
 
+#hero .description a {
+    text-decoration: none;
+    background-color: var(--blue1);
+    padding: 15px 30px;
+    color: white;
+    text-align: center;
+    border-radius: 24px;
+}
+
 #hero .image {
     height: 300px;
     width: 100%;
@@ -49,4 +58,4 @@
     right: 0;
 }
 
-#hero .blur {}
+/* #hero .blur {} */
