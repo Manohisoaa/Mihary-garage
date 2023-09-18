@@ -28,11 +28,15 @@ nav div h1 span {
     -webkit-text-fill-color: transparent;
 }
 
-nav div a {
+nav div a 
+{
+    display: flex;
+    justify-content: space-between;
     text-decoration: none;
     color: white;
     background: var(--blue1);
     border: none;
     border-radius: 24px;
     padding: 10px 30px;
+
 }
